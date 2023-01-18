@@ -1,0 +1,66 @@
+body {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+h2 {
+	text-decoration: underline;
+}
+
+main {
+	border: 3px solid black;
+	padding: 40px;
+	border-radius: 10px;
+	padding-top: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+span {
+	text-align: left;
+	font: bolder;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+input {
+	border-radius: 5px;
+	padding: 5px;
+	font-size: large;
+	margin: 10px;
+	border: 3px solid;
+	color: rgb(59, 141, 255);
+	justify-content: right;
+}
+
+button {
+	all: unset;
+	background-color: rgb(35, 68, 214);
+	/* border: 2px solid rgba(0, 0, 0, 0.503); */
+	color: rgb(218, 218, 218);
+	border-radius: 100px;
+	font-size: large;
+	font-weight: bold;
+	padding: 10px;
+}
+div {
+	display: flex;
+	margin-top: 30px;
+	justify-content: space-around;
+}
+button:hover {
+	background-color: rgb(107, 255, 44);
+	border: 2px solid rgb(141, 141, 141);
+	color: black;
+}
+.viewdb {
+	height: 220px;
+	color: rgb(214, 214, 214);
+	background-color: blue;
+	border-radius: 50px;
+	padding: 10px;
+	border: 2px solid rgba(81, 81, 81, 0.547);
+}
+
+a {
+	margin-top: 10px;
+}

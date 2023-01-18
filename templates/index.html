@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="{{ url_for('static', filename='style/style.css')}}"
+		/>
+		<title>Document</title>
+	</head>
+	<body>
+		<main>
+			<h2>Welcome to Subway</h2>
+			<hr />
+			<form method="post">
+				<span>Enter Firstname:</span>
+				<input type="text" name="firstname" id="" />
+				<br />
+				<span>Enter Lastname:</span>
+				<input type="text" name="lastname" id="" />
+				<br />
+				<span>Enter Username:</span>
+				<input type="text" name="username" id="" />
+				<br />
+				<span>Enter Password:</span>
+				<input type="password" name="password" id="" />
+				<br />
+				<span>Enter user id:</span>
+				<input type="text" name="userid" id="userid" />
+				<br />
+				<div>
+					<button>Login</button>
+					<a href="{{ url_for('database') }}">
+						<span class="viewdb">View Database</span>
+					</a>
+				</div>
+			</form>
+		</main>
+		<script src="{{ url_for('static', filename='js/main.js')}}"></script>
+	</body>
+</html>
